@@ -388,6 +388,7 @@ public class Driver {
         System.out.println(animal.getName());
         System.out.println("Training status: " + animal.getTrainingStatus());
         System.out.println("Acquired in: " + animal.getAcquisitionLocation());
+        System.out.println("In-service country: " + animal.getInServiceLocation());
         System.out.println("Reserved: " + animal.getReserved());
         System.out.println();
     }
